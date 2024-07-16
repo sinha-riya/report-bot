@@ -18,8 +18,7 @@ Based on the report analysis, provide a diet plan and schedule tailored to the u
 #### Installation
 Clone the repository:
 ```
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/sinha-riya/report-bot
 ```
 #### Install dependencies:
 ```
@@ -40,7 +39,7 @@ Customize the application as needed by modifying config.json and adjusting the p
 Run the application by executing the Python script:
 
 ```
-streamlit run your_script.py
+streamlit run main.py
 ```
 Upload a medical report image (.jpg, .jpeg, .png) and click "Upload".
 The application will process the report, extract information, and provide insights and recommendations based on the analysis.
